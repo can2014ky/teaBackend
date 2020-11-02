@@ -5,7 +5,7 @@ const connection = require('../db/index');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.end('Hello Wolrld 33!!!');
+  res.end('Hello Wolrld 333!!!');
   res.render('index', { title: 'Express' });
 });
 router.get('/api/test', function(req, res, next) {
