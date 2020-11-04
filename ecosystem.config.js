@@ -15,7 +15,7 @@ module.exports = {
     production : {
       user : 'root',
       host : '47.104.148.45',
-      ref  : 'origin/master',
+      ref  : 'origin/main',
       repo : 'git@github.com:can2014ky/teaBackend.git',
       path : '/project/tea',
       'pre-deploy-local': '',
